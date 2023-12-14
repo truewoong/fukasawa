@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+*{margin: 0; padding: 0; text-decoration: none; list-style-type: none;}
+.wrap1{width: 100%; height: 100vh;}
+.cont1{width: 100%; height: 100vh; margin: 0 auto; position: relative; text-align: center;}
+.cont1 .b0{position: absolute; text-align: left; z-index: -1; width: 100%;height: 100vh; background-image: url(img/banner.png);}
+.cont1 .logo{position: absolute; text-align: left; top: 60px; left: 95px;}
+.cont1 .wrap2{position: absolute; text-align: left; top: 148px; left: 95px; font-size: 35px; color: #707070;}
+.wrap2 .menu1{padding-bottom: 17px;}
+.wrap2 .menu2{padding-bottom: 17px;} 
+.wrap2 .menu3{padding-bottom: 17px;} 
+.wrap2 .menu4{padding-bottom: 17px;} 
+
+.menu1 img.intro{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu1:hover img.intro{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+
+  .menu2 img.design{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu2:hover img.design{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+
+  .menu3 img.interview{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu3:hover img.interview{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+
+  .menu4 img.philosophy{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu4:hover img.philosophy{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+  .menu1:hover img.basics{display: none;}
+  .menu2:hover img.basics{display: none;}
+  .menu3:hover img.basics{display: none;}
+  .menu4:hover img.basics{display: none;}
+
+  .wrap3{width: 100%; height: 416x;}
+  .cont2{width: 1200px;margin: 0 auto; text-align: center; padding-top: 139px;}
+  .cont2 .cont2_1{font-size: 25px; font-weight: 700;text-align: left; padding-bottom: 26px;}
+  .cont2 .cont2_2{font-size: 20px; text-align: left;padding-bottom: 70px;}
+
+  .wrap4{width: 100%; height: 656px; padding-bottom: 70px;}
+  .cont3{width: 1200px;margin: 0 auto; text-align: center;}
+  .cont3 .awards{font-size: 25px; font-weight: 700;text-align: center; padding-bottom: 50px;}
+  .cont2 .awards2{text-align: center;}
+
+  .wrap5{width: 1200px; height: 344px; text-align: center; margin: 0 auto;}
+  .cont4{float: left; width: 50%;}
+  .selected{font-size: 25px; font-weight: 700;text-align: left; padding-bottom: 26px;}
+  .selected2{text-align: left; width: 683px;}
+  .wrap6{ margin: 0 auto; text-align: right; float: left; width: 50%; padding-bottom: 130px;}
+  .wrap6naoto{width: 284px; height: 340px; margin-left: 316px; background-image: url(img/noto.png);}
+
+  .footer{width: 100%; height: 232px;}
+  .back{width: 1200px; margin: 0 auto; text-align: center; padding-bottom: 90px;}

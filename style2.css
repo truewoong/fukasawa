@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+*{margin: 0; padding: 0; text-decoration: none; list-style-type: none;}
+.wrap1{width: 100%; height: 100vh;}
+.cont1{width: 100%; height: 100vh; margin: 0 auto; position: relative; text-align: center;}
+.cont1 .b0{position: absolute; text-align: left; z-index: -1; width: 100%;height: 100vh; background-image: url(img/dbanner.png);}
+.cont1 .logo{position: absolute; text-align: left; top: 60px; left: 95px;}
+.cont1 .wrap2{position: absolute; text-align: left; top: 148px; left: 95px; font-size: 35px; color: #707070;}
+.wrap2 .menu1{padding-bottom: 17px;}
+.wrap2 .menu2{padding-bottom: 17px;} 
+.wrap2 .menu3{padding-bottom: 17px;} 
+.wrap2 .menu4{padding-bottom: 17px;} 
+
+.menu1 img.intro{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu1:hover img.intro{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+
+  .menu2 img.design{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu2:hover img.design{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+
+  .menu3 img.interview{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu3:hover img.interview{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+
+  .menu4 img.philosophy{
+    opacity: 0;
+    width: 0px;
+    height: 41px;
+  }
+
+.menu4:hover img.philosophy{
+    opacity: 1;
+    width: 207px;
+    transition: all 0.5s;
+    height: 41px;
+  }
+  .menu1:hover img.basics{display: none;}
+  .menu2:hover img.basics{display: none;}
+  .menu3:hover img.basics{display: none;}
+  .menu4:hover img.basics{display: none;}
+
+  .wrap3{width: 100%; height: 2324px;}
+  .cont2{width: 1560px;margin: 0 auto;
+        text-align: center; padding-top: 110px;}
+  .cont2 .cont2_1{font-size: 30px; font-weight: 700;
+                  text-align: center; padding-bottom: 40px;}
+  .cont2_2{width: 1560px; text-align: center;}
+  .cont2_2 .e1{float: left; padding-right: 30px;}
+  .cont2_2 .e2{float: left; padding-right: 30px;}
+  .minibar{padding-top: 30px;}
+
+  .cont3{width: 1200px; margin: 0 auto;
+         text-align: center; padding-top: 160px;}
+  .cont3 .cont3_1{font-size: 30px; font-weight: 700;
+    text-align: center; padding-bottom: 40px;}
+  .cont3_2 .cont3_2_1{width: 1200px; text-align: center;}
+  .f1{width: 700px; height: 550px;
+      background-image: url(img/f1.png); margin-right: 10px; float: left;
+      margin-bottom: 10px;}
+  .f2{width: 490px; height: 550px;
+      background-image: url(img/f2.png); float: left;}
+  .f3{width: 490px; height: 550px;
+        background-image: url(img/f3.png); margin-right: 10px; float: left;}
+  .f4{width: 700px; height: 550px;
+        background-image: url(img/f4.png); float: left;}
+  
+  .f1:hover{background-image: url(img/mhf1.png); transition: all 0.5s;}
+  .f2:hover{background-image: url(img/mhf2.png); transition: all 0.5s;}
+  .f3:hover{background-image: url(img/mhf3.png); transition: all 0.5s;}
+  .f4:hover{background-image: url(img/mhf4.png); transition: all 0.5s;}
+
+  .cont4{width: 1920px; height: 600px; background-image: url(img/db1.png); position: relative; margin: 0 auto;} 
+  .more{background-image: url(img/more1.png); width: 220px; height: 68px; position: absolute; top: 266px; left: 855px;}
+  .more:hover{background-image: url(img/more2.png); transition: all 0.5s;
+              }
+
+  .footer{width: 100%; height: 232px; margin-top: 127px;}
+  .back{width: 1200px; margin: 0 auto; text-align: center; padding-bottom: 90px;}
