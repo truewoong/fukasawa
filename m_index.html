@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m_index</title>
+    <link rel="stylesheet" href="m_style.css">
+    <script>
+        function Mobile(){
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
+        if (Mobile()){
+        } else {
+        location.href="index.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="logo" onclick="toggleMenu()">
+        <img src="img/mlogo.png" alt="Logo">
+    </div>
+    <div class="background">
+        <div class="menu" id="menu">
+            <div class="menu_1">
+                <a href="#">Introduce</a>
+                <a href="#">Design</a>
+                <a href="#">Interview</a>
+                <a href="#">Philosophy</a>
+                <div class="footer"><img src="img/深澤直人.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+    
+</body>
+</html>
